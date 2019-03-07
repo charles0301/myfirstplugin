@@ -1,2 +1,0 @@
-# myfirstplugin
-my first plugin
