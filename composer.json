@@ -1,0 +1,31 @@
+{
+  "name": "charles0301/myfirstplugin",
+  "description": "My First Sample Plugin",
+  "type": "oxideshop-module",
+  "keywords":    [
+        "oxid",
+        "modules",
+        "eShop",
+        "payment"
+    ],
+  "homepage":    "https://oxidforge.org/en/downloads",
+  "authors":     [
+        {
+            "name":  "Oxid eShop",
+            "email": "charles_a@novalnetsolutions.com"
+        }
+    ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "oe/myplugin"
+    }
+  },
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "oe\\myplugin\\": "../../../source/modules/oe/myplugin"
+    }
+  }
+}
