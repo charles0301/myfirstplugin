@@ -15,6 +15,10 @@
             "email": "charles_a@novalnetsolutions.com"
         }
     ],
+    "license":     [
+        "GPL-3.0",
+        "proprietary"
+    ],
   "extra": {
     "oxideshop": {
       "target-directory": "oe/myplugin"
