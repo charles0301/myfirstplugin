@@ -24,9 +24,6 @@
       "target-directory": "oe/myplugin"
     }
   },
-  "require": {
-    "php": ">=5.6"
-  },
   "autoload": {
     "psr-4": {
       "oe\\myplugin\\": "../../../source/modules/oe/myplugin"
